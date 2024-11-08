@@ -9,5 +9,5 @@ Description: More about what it does (maybe more than one line)
 License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/claireestey/zooper
+URL: https://github.com/claireestey/zooper, https://claireestey.github.io/zooper/
 BugReports: https://github.com/claireestey/zooper/issues
