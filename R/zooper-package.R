@@ -12,7 +12,7 @@ NULL
 #' dataset with their respective documentation.
 #'
 #' @docType _PACKAGE
-#' @name zooper
+#' @name zooper-package
 #' @author Claire Estey, Department of Biology, McMaster University \email{esteyc@@mcmaster.ca}
 #' @references \url{https://github.com/claireestey/zooper}
 NULL
