@@ -3,9 +3,9 @@
 \docType{package}
 \name{zooper-package}
 \alias{zooper-package}
-\title{zooper: What the Package Does (One Line, Title Case)}
+\title{zooper: Calculates Zooplankton Community Composition Metrics}
 \description{
-What the package does (one paragraph).
+This package contains functions used for analysing data-sets containing zooplankton community composition information.
 
 This package is used for calculating the number of zooplankton per liter.
 The package includes a function used for this calculation and an example
@@ -24,7 +24,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Claire Estey \email{esteyc@mcmaster.ca} (\href{https://orcid.org/0000}{ORCID})
 
 
 Claire Estey, Department of Biology, McMaster University \email{esteyc@mcmaster.ca}
