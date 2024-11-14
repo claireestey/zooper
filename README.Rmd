@@ -18,37 +18,25 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of zooper is to ...
+The goal of `zooper` is to provide functions used in zooplankton community composition analysis, as well as a sample data-set to use with the functions.
+
+The package contains a function called `zoopl()`, which is used to calculate the number of zooplankton per liter in a sample. In the folder **data**, there is a practice data-set called **zoop_data.rda** that may be used with the function. Documentation on the data-set can be found in the folder **man** under **zooper-package.Rd**. 
 
 ## Installation
 
-You can install the development version of zooper like so:
+You can install the development version of `zooper` like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+
+devtools::install_github("claireestey", "zooper")
+
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use the function `zoopl` to calculate zooplankton per liter if your raw count of a species was 223 individuals, your sub-sample size was 10 mL, and the volume of water filtered through the trap was 30 L:
 
 ```{r example}
 library(zooper)
-## basic example code
+zoopl(count = 223, sample_vol = 20, subsample_vol = 12.5, trap_vol = 30)
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.

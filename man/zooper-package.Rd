@@ -6,9 +6,27 @@
 \title{zooper: What the Package Does (One Line, Title Case)}
 \description{
 What the package does (one paragraph).
+
+This package is used for calculating the number of zooplankton per liter.
+The package includes a function used for this calculation and an example
+dataset with their respective documentation.
+}
+\references{
+\url{https://github.com/claireestey/zooper}
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/claireestey/zooper}
+  \item \url{https://claireestey.github.io/zooper/}
+  \item Report bugs at \url{https://github.com/claireestey/zooper/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
+
+Claire Estey, Department of Biology, McMaster University \email{esteyc@mcmaster.ca}
 }
 \keyword{internal}
